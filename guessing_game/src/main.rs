@@ -6,7 +6,7 @@ fn main() {
     
     println!("Secret Number");
 
-    let secret_number: u32 = rand::thread_rng().gen_range(0..100);
+    let secret_number: u32 = rand::thread_rng().gen_range(0..=100);
 
     loop {
         println!("Guess the number!");
